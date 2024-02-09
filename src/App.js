@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+// import Dashboard from './Dashboard';
+// import CardWithFeedback from './CardWithFeedback';
+// import GetFeedBackFrom from './GetFeedBackFrom';
+// import AdminFeedbackAnalysis from './AdminFeedbackAnalysis';
+// import AppRouter from './routes/AppRouter';
+// import GetFeedBackFrom from './GetFeedBackFrom';
+ import {AppRouter} from './routes/AppRouter';
+import GetFeedBackFrom from './GetFeedBackFrom';
+import AdminFeedbackAnalysis from './AdminFeedbackAnalysis';
+import CardWithFeedback from './FeedBack';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     {/* <GetFeedBackFrom/ > */}
+      {/* <GetFeedBackFrom/> */}
+      <AdminFeedbackAnalysis/>
+    </>
   );
 }
 
